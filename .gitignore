@@ -1,0 +1,9 @@
+# secrets and generated files
+auth_config.json
+2fa_qr.png
+data/cicids/
+data/cicids_sample/
+data/phishing/
+models/
+__pycache__/
+.ipynb_checkpoints/

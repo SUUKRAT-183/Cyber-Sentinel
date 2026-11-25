@@ -1,0 +1,32 @@
+[
+  {
+    "label": "phishing/spam",
+    "source": "Nazario",
+    "text": "Important Update Dear Member, We have noticed an unusual activities on your NFCU online, please download the attached online statement and follow the instructions to keep your account active, Thank you, Navy Federal Credit Union Please note: This e-mail message was sent from a notification-only address. Please do not reply to this message Dear Member, We have noticed an unusual activities on your NFCU online, please download the attached online statement and follow the instructions to keep your account active, Thank you, Navy Federal Credit Union Please note: This e-mail message was sent from a notification-only address. Please do not reply to this message"
+  },
+  {
+    "label": "phishing/spam",
+    "source": "Nazario",
+    "text": "Unauthorized Access Customer\r We noticed an unauthorized access on your account from a blacklisted IP and we believe someone has your password. We have taken action to protect you by limiting your access until you review your identity.\r To regain access to your on-line profile, kindly sign in with below button to resolve ongoing issue. \r \r \r Verify Account\r \r Please do not respond to this confirmation e-mail.\r Sincerely,\r \r Online Services Team \u00a0\u00a0 Customer We noticed an unauthorized access on your account from a blacklisted IP and we believe someone has your password. We have taken action to protect you by limiting your access until you review your identity. To regain access to your on-line profile, kindly sign in with below button to resolve ongoing issue.\u00a0 Verify Account Please do not respond to this confirmation e-mail. Sincerely,Online Services Team"
+  },
+  {
+    "label": "phishing/spam",
+    "source": "Nigerian_Fraud",
+    "text": "IRS Notification - Please Read This . After the last              annual calculations of your fiscal activity we have determined that              you are eligible to receive a tax refund of $63.80. Please              submit the tax refund request and allow us 6-9 days in order to              process it. A refund can be delayed for a variety of reasons. For example              submitting invalid records or applying after the deadline. To access the form for your tax refund,              please click here Regards,              Internal Revenue Service \u00a0 \u00a0 \u00a9 Copyright 2006,          Internal Revenue Service U.S.A. All rights reserved.."
+  },
+  {
+    "label": "legitimate",
+    "source": "Enron",
+    "text": "noms / actual flow for 2 / 27 we agree\r\n- - - - - - - - - - - - - - - - - - - - - - forwarded by melissa jones / texas utilities on\r\n02 / 28 / 2001\r\n10 : 19 am - - - - - - - - - - - - - - - - - - - - - - - - - - -\r\n\" eileen ponton \" on 02 / 28 / 2001 10 : 10 : 39 am\r\nto : david avila / lsp / enserch / us @ tu , charlie stone / texas utilities @ tu , melissa\r\njones / texas utilities @ tu , hpl . scheduling @ enron . com ,\r\nliz . bellamy @ enron . com\r\ncc :\r\nsubject : noms / actual flow for 2 / 27\r\ndate nom flow - mcf flow - mmbtu\r\n2 / 27 / 01 0 0 0\r\nbtu = 1 . 027"
+  },
+  {
+    "label": "legitimate",
+    "source": "Enron",
+    "text": "re : training courses shirley ,\r\nno problem .\r\nvince\r\nshirley crenshaw\r\n03 / 13 / 2000 12 : 08 pm\r\nto : vince j kaminski / hou / ect @ ect\r\ncc :\r\nsubject : training courses\r\nvince :\r\nkevin moore and jose marquez would like to take a course entitled\r\n\" wellhead to burnertip \" which is scheduled monthly . the first course\r\navailable would be may 18 th and the cost would be $ 600 . 00 each .\r\nis this ok ?\r\nthanks !"
+  },
+  {
+    "label": "legitimate",
+    "source": "Enron",
+    "text": "february 2001 - mcnic / lyondell noms . fyi ! meter 1063 for feb .\r\nal\r\n- - - - - - - - - - - - - - - - - - - - - - forwarded by aimee lannou / hou / ect on 01 / 24 / 2001 08 : 41\r\nam - - - - - - - - - - - - - - - - - - - - - - - - - - -\r\n\" kevin olson \" on 01 / 22 / 2001 03 : 28 : 36 pm\r\nto : \" amy lannou \"\r\ncc : \" janice berke - davis \"\r\nsubject : february 2001 - mcnic / lyondell noms .\r\namy ,\r\nplease note that the mcnic noms for february , 2001 into the lyondell\r\nchannelview plant via hpl will be zero mmbtu / day .\r\ni will notify you of any changes .\r\nplease call should you have any questions .\r\nthanks !\r\nkevin e . olson\r\nenergy service providers , llp\r\n1521 green oak place # 170\r\nkingwood , texas 77339\r\nphone : 281 - 359 - 4610\r\nfax : 281 - 359 - 4656\r\nemail : olson @ espllp . com"
+  }
+]

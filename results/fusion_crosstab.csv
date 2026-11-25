@@ -1,0 +1,16 @@
+true label,Known attack,Suspected zero-day,Benign
+BENIGN,4217,4235,420906
+Bot,376,0,14
+DDoS,25597,0,6
+DoS GoldenEye,2056,0,1
+DoS Hulk,34566,0,3
+DoS Slowhttptest,1046,0,0
+DoS slowloris,1077,0,0
+FTP-Patator,1182,0,4
+Heartbleed,1,0,0
+Infiltration,6,0,1
+PortScan,18138,1,0
+SSH-Patator,639,0,5
+Web Attack - Brute Force,286,0,8
+Web Attack - SQL Injection,5,0,0
+Web Attack - XSS,126,0,4

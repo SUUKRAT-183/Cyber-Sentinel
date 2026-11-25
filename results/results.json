@@ -1,0 +1,113 @@
+{
+  "dataset": {
+    "rows_after_cleaning": 2572527,
+    "features": 68,
+    "train": 1543516,
+    "validation": 514505,
+    "test": 514506
+  },
+  "rf_default": {
+    "TN": 428594,
+    "FP": 764,
+    "FN": 440,
+    "TP": 84708,
+    "FPR": 0.0017794008729312136,
+    "recall": 0.9948325268943486,
+    "precision": 0.991061400224635,
+    "accuracy": 0.9976598912354764
+  },
+  "rf_tuned": {
+    "TN": 425141,
+    "FP": 4217,
+    "FN": 47,
+    "TP": 85101,
+    "FPR": 0.009821640682134722,
+    "recall": 0.9994480199182599,
+    "precision": 0.9527866723392822,
+    "accuracy": 0.9917124387276339
+  },
+  "anomaly_alone": {
+    "TN": 425136,
+    "FP": 4222,
+    "FN": 56733,
+    "TP": 28415,
+    "FPR": 0.009833285975805737,
+    "recall": 0.3337130643115517,
+    "precision": 0.8706376198792781,
+    "accuracy": 0.8815271347661641
+  },
+  "anomaly_roc_auc": 0.9694431859758401,
+  "rf_roc_auc": 0.9999079070050112,
+  "rf_pr_auc": 0.9995399873148892,
+  "fusion": {
+    "FPR_known_tier": 0.009821640682134722,
+    "FPR_any_alert": 0.0196852044214851,
+    "recall_known_tier": 0.9994480199182599,
+    "recall_any_alert": 0.9994597641753182,
+    "precision_known": 0.9527866723392822,
+    "benign_flows_test": 429358,
+    "attack_flows_test": 85148
+  },
+  "thresholds": {
+    "t1": 0.20033873817327164,
+    "t2": 0.5564226818002208,
+    "t2_alone": 0.5579131093078744
+  },
+  "zero_day": [
+    {
+      "held_out_family": "DoS",
+      "test_flows": 38749,
+      "supervised_recall": 0.45719889545536657,
+      "anomaly_recall": 0.4523987715812021,
+      "fused_recall": 0.6757593744354693,
+      "supervised_FPR": 0.010126747376315337,
+      "fused_FPR": 0.01991345217743701
+    },
+    {
+      "held_out_family": "DDoS",
+      "test_flows": 25603,
+      "supervised_recall": 0.6359411006522673,
+      "anomaly_recall": 0.41666992149357496,
+      "fused_recall": 0.852985978205679,
+      "supervised_FPR": 0.009998649145934162,
+      "fused_FPR": 0.019820289828068886
+    },
+    {
+      "held_out_family": "PortScan",
+      "test_flows": 18139,
+      "supervised_recall": 0.008986162412481393,
+      "anomaly_recall": 0.01086057665802966,
+      "fused_recall": 0.018633882793979824,
+      "supervised_FPR": 0.009926448325173864,
+      "fused_FPR": 0.019734114654903368
+    },
+    {
+      "held_out_family": "Patator",
+      "test_flows": 1830,
+      "supervised_recall": 0.18797814207650274,
+      "anomaly_recall": 0.00273224043715847,
+      "fused_recall": 0.1907103825136612,
+      "supervised_FPR": 0.010017281615807788,
+      "fused_FPR": 0.01989947782503179
+    },
+    {
+      "held_out_family": "Bot",
+      "test_flows": 390,
+      "supervised_recall": 0.0,
+      "anomaly_recall": 0.020512820512820513,
+      "fused_recall": 0.020512820512820513,
+      "supervised_FPR": 0.00985657656314777,
+      "fused_FPR": 0.01967588818654829
+    },
+    {
+      "held_out_family": "WebAttack",
+      "test_flows": 429,
+      "supervised_recall": 0.08158508158508158,
+      "anomaly_recall": 0.0,
+      "fused_recall": 0.08158508158508158,
+      "supervised_FPR": 0.009889183385426614,
+      "fused_FPR": 0.01970150783262452
+    }
+  ],
+  "demo_holdout_family": "DoS"
+}
